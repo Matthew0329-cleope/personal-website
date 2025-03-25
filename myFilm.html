@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Kind of Film</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       body {
+    background-color: #f4f4f4;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+    padding: 10px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+header {
+    position: fixed;
+    top: 65px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+section {
+    background: white;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+video {
+    width: 95%;
+    max-width: 650px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #444;
+    font-weight: bold;
+    margin: 15px 0;
+    line-height: 1.8;
+}
+
+.home-btn {
+    display: inline-block;
+    margin: 35px auto;
+    padding: 12px 25px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: 1.1em;
+}
+
+.home-btn:hover {
+    background: #555;
+}
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="landingPage.html">Home</a>
+        <a href="biography.html">Biography</a>
+        <a href="skills.html">Skills</a>
+        <a href="resume.html">Resume</a>
+        <a href="photoGallery.html">Photo Gallery Dump</a>
+        <a href="myBeat.html">My Beat</a>
+        <a href="myFilm.html">My Kind of Film</a>
+        <a href="dreamPlaces.html">Places to Visit</a>
+    </div>
+    <header>
+        <h1>My Kind of Film</h1>
+    </header>
+    <div class="container">
+        <section>
+            <h2>TV Shows</h2>
+            <video controls>
+                <source src="Mp4/FPJ’s Batang Quiapo Trailer 1.mp4" type="video/mp4">
+            </video>
+            <p>"Batang Quiapo" follows Tanggol, a young man surviving the streets of Quiapo, Manila, as he grapples with his identity, crime, and redemption.</p>
+            <p>Title: Batang Quiapo</p>
+
+            <br>
+            
+            <video controls>
+                <source src="Mp4/TV5 - Pilipinas Got Talent (New Season) _ Teaser.mp4" type="video/mp4">
+            </video>
+            <p>"Pilipinas Got Talent" is a reality competition showcasing Filipinos' extraordinary talents, from singing to acrobatics, with the chance to win fame and fortune.</p>
+            <p>Title: Pilipinas Got Talent</p>
+
+            <br>
+            
+            <video controls>
+                <source src="Mp4/World Of Dance Philippines Trailer - Soon on ABS-CBN!.mp4" type="video/mp4">
+            </video>
+            <p>"World of Dance Philippines" features dancers competing in different styles, judged by professionals, aiming for the title of the country's best dance act.</p>
+            <p>Title: World of Dance</p>
+        </section>
+
+        <section>
+            <h2>Movies</h2>
+            <video controls>
+                <source src="Mp4/'Real Steel' Trailer HD.mp4" type="video/mp4">
+            </video>
+            <p>"Real Steel" is a sci-fi sports drama where a former boxer and his son rebuild a discarded robot to compete in high-stakes robotic boxing matches.</p>
+            <p>Title: Real Steel</p>
+
+            <br>
+            
+            <video controls>
+                <source src="Mp4/THE KARATE KID - Official Trailer (HD).mp4" type="video/mp4">
+            </video>
+            <p>"The Karate Kid" tells the story of a young boy learning kung fu from a wise mentor, facing bullies, and proving himself in a martial arts tournament.</p>
+            <p>Title: The Karate Kid</p>
+
+            <br>
+            
+            <video controls>
+                <source src="Mp4/Marvel Studios' Avengers_ Endgame - Official Trailer.mp4" type="video/mp4">
+            </video>
+            <p>"Avengers: Endgame" is the grand conclusion to the Infinity Saga, where the remaining heroes unite for a final battle to undo Thanos' catastrophic snap.</p>
+            <p>Title: Avengers: Endgame</p>
+        </section>
+    </div>
+    <a href="landingPage.html" class="home-btn">Go Home</a>
+</body>
+</html>
